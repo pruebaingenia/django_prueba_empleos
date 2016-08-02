@@ -1,6 +1,5 @@
  # -*- coding : utf-8 -*-
 from django.shortcuts import render
-from djEmpleosIngenia.settings import MEDIA_ROOT
 
 # Create your views here.
 from vacantesApp import modelsV

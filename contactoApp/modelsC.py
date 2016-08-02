@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 
 import datetime
-from djEmpleosIngenia.settings import MEDIA_ROOT
+from django_prueba_empleos.settings import MEDIA_ROOT
 
 from django.db import models
 from vacantesApp import modelsV

@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-from djEmpleosIngenia.settings import MEDIA_ROOT
+from django_prueba_empleos.settings import MEDIA_ROOT
 import datetime
 
 def path_and_rename(instance, filename):
