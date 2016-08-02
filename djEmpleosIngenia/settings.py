@@ -131,7 +131,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 
-STATIC_ROOT = 'var/www/sitios-django/prueba_empleos/pruebaempleosingenia.com/static/'
+STATIC_ROOT = '/var/www/sitios_django/prueba_empleos/pruebaempleosingenia.com/static/'
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = ''

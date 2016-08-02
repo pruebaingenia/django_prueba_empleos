@@ -33,4 +33,4 @@ urlpatterns = [
     url(r'^vacantes/$', viewsV.renderVacantes, name='urlVacantes'),
     url(r'^contacto/$', viewsC.renderContactoIngenia, name='urlContacto'),
     url(r'^exito/$', viewsC.renderExito, name='urlExito'),
-    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    ]
