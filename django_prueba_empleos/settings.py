@@ -134,4 +134,8 @@ USE_TZ = True
 STATIC_ROOT = '/var/www/html/ingenia/prueba_empleos/static'
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    "/var/www/html/ingenia/prueba_empleos/django_prueba_empleos/static/",
+    ]
+
 MEDIA_ROOT = ''
